@@ -1,0 +1,110 @@
+
+"route420" database should already exist
+
+under "route420"
+right click "create collection"
+name collection "users"
+
+	MAKE SURE COLLECTION NAME IS IN lower case
+
+under "collections"
+right click "users"
+select "insert document"
+copy and paste JSON below and save.
+
+continue until all users have been added...
+
+======================================
+
+{
+    "_id" : ObjectId("5d47260d7ffa622eb84ae7b2"),
+    "firstName" : "Ryan",
+    "lastName" : "Test",
+    "email" : "ryan@dankcity.com",
+    "password" : "welcome1",
+    "storecomments" : [ 
+        ObjectId("5d485d2ab39af235748449d2"), 
+        ObjectId("5d485d2ab39af235748449df"), 
+        ObjectId("5d485d2ab39af235748449c2"), 
+        ObjectId("5d485d2ab39af235748449b6"), 
+        ObjectId("5d485d2ab39af235748449c8"), 
+        ObjectId("5d485d2ab39af235748449d8"), 
+        ObjectId("5d485d2ab39af235748449bc"), 
+        ObjectId("5d485d2ab39af235748449cc")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d47260d7ffa622eb84ae7b3"),
+    "firstName" : "Matt",
+    "lastName" : "Test",
+    "email" : "matt@dankcity.com",
+    "password" : "welcome2",
+    "storecomments" : [ 
+        ObjectId("5d485d2ab39af235748449cd"), 
+        ObjectId("5d485d2ab39af235748449d7"), 
+        ObjectId("5d485d2ab39af235748449b7"), 
+        ObjectId("5d485d2ab39af235748449c9"), 
+        ObjectId("5d485d2ab39af235748449bb"), 
+        ObjectId("5d485d2ab39af235748449d9"), 
+        ObjectId("5d485d2ab39af235748449da"), 
+        ObjectId("5d485d2ab39af235748449bd"), 
+        ObjectId("5d485d2ab39af235748449c3"), 
+        ObjectId("5d485d2ab39af235748449d1"), 
+        ObjectId("5d485d2ab39af235748449e0"), 
+        ObjectId("5d485d2ab39af235748449c1"), 
+        ObjectId("5d485d2ab39af235748449de"), 
+        ObjectId("5d485d2ab39af235748449d3")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d47260d7ffa622eb84ae7b4"),
+    "firstName" : "Isabella",
+    "lastName" : "Test",
+    "email" : "bella@dankcity.com",
+    "password" : "welcome3",
+    "storecomments" : [ 
+        ObjectId("5d485d2ab39af235748449e1"), 
+        ObjectId("5d485d2ab39af235748449c4"), 
+        ObjectId("5d485d2ab39af235748449d0"), 
+        ObjectId("5d485d2ab39af235748449c6"), 
+        ObjectId("5d485d2ab39af235748449d4"), 
+        ObjectId("5d485d2ab39af235748449d6"), 
+        ObjectId("5d485d2ab39af235748449b8"), 
+        ObjectId("5d485d2ab39af235748449ce"), 
+        ObjectId("5d485d2ab39af235748449dd"), 
+        ObjectId("5d485d2ab39af235748449be"), 
+        ObjectId("5d485d2ab39af235748449c0"), 
+        ObjectId("5d485d2ab39af235748449db"), 
+        ObjectId("5d485d2ab39af235748449ca"), 
+        ObjectId("5d485d2ab39af235748449ba")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d47260d7ffa622eb84ae7b5"),
+    "firstName" : "Jared",
+    "lastName" : "Test",
+    "email" : "jared@dankcity.com",
+    "password" : "welcome4",
+    "storecomments" : [ 
+        ObjectId("5d485d2ab39af235748449dc"), 
+        ObjectId("5d485d2ab39af235748449cf"), 
+        ObjectId("5d485d2ab39af235748449bf"), 
+        ObjectId("5d485d2ab39af235748449e2"), 
+        ObjectId("5d485d2ab39af235748449c7"), 
+        ObjectId("5d485d2ab39af235748449c5"), 
+        ObjectId("5d485d2ab39af235748449d5"), 
+        ObjectId("5d485d2ab39af235748449b9"), 
+        ObjectId("5d485d2ab39af235748449cb")
+    ]
+}
+
+======================================

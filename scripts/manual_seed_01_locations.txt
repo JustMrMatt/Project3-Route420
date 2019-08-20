@@ -1,0 +1,109 @@
+
+right click "New Connection" 
+select "Create Database"
+name the database "route420
+
+under "route420"
+right click "create collection"
+name collection "locations"
+
+	MAKE SURE COLLECTION NAME IS IN lower case
+
+under "collections"
+right click "locations"
+select "insert document"
+copy and paste JSON below and save.
+
+right click "locations"
+select "insert document" 
+continue until all locations have been added...
+
+======================================
+
+{
+    "_id" : ObjectId("5d471e82fce97c3cf0b7d0d8"),
+    "city" : "Raleigh",
+    "state" : "NC",
+    "stores" : [ 
+        ObjectId("5d474e210953e00dbc14734e"), 
+        ObjectId("5d474e210953e00dbc147351"), 
+        ObjectId("5d474e210953e00dbc147354"), 
+        ObjectId("5d474e210953e00dbc147358"), 
+        ObjectId("5d474e210953e00dbc147359"), 
+        ObjectId("5d474e210953e00dbc14735a")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d471e82fce97c3cf0b7d0d9"),
+    "city" : "Chapel Hill",
+    "state" : "NC",
+    "stores" : [ 
+        ObjectId("5d474e210953e00dbc14734f")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d471e82fce97c3cf0b7d0da"),
+    "city" : "Wake Forest",
+    "state" : "NC",
+    "stores" : [ 
+        ObjectId("5d474e210953e00dbc147350"), 
+        ObjectId("5d474e210953e00dbc147353")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d471e82fce97c3cf0b7d0db"),
+    "city" : "Durham",
+    "state" : "NC",
+    "stores" : [ 
+        ObjectId("5d474e210953e00dbc147356")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d471e82fce97c3cf0b7d0dc"),
+    "city" : "Morrisville",
+    "state" : "NC",
+    "stores" : [ 
+        ObjectId("5d474e210953e00dbc14735b")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d471e82fce97c3cf0b7d0dd"),
+    "city" : "Apex",
+    "state" : "NC",
+    "stores" : [ 
+        ObjectId("5d474e210953e00dbc147352"), 
+        ObjectId("5d474e210953e00dbc147355"), 
+        ObjectId("5d474e210953e00dbc14735c")
+    ]
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d471e82fce97c3cf0b7d0de"),
+    "city" : "Cary",
+    "state" : "NC",
+    "stores" : [ 
+        ObjectId("5d474e210953e00dbc147357")
+    ]
+}
+
+======================================
+
+
+
