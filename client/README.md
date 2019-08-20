@@ -18,6 +18,7 @@ Cataloging stores in North Carolina that sell CBD products.
  Data is stored in a Mongo (NoSQL) Database, but we use Mongoose to create realtional functionality.
 
  Mongo Collections:
+
   * Users: Documents (records) that represent people who have accounts.
   * Locations: City's that have stores that sell CBD products.
   * Stores: Stores that sell CBD products.
