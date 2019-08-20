@@ -1,0 +1,514 @@
+
+"route420" database should already exist
+
+under "route420"
+right click "create collection"
+name collection "storecomments"
+
+	MAKE SURE COLLECTION NAME IS IN lower case
+
+under "collections"
+right click "storecomments"
+select "insert document"
+copy and paste JSON below and save.
+
+continue until all storecomments have been added...
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449b6"),
+    "comment" : "Hot box at 4:20 the fatty dank endo doobie in a cashed roachclip, Bogart.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc14734e"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449b7"),
+    "comment" : "Wake and bake indica hash at the dispensary in Oregon decriminalized.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc14734f"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449b8"),
+    "comment" : "Crystalized buds from trimming tasty weed pens THC sativa euphoric resinated dome piece.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147350"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449b9"),
+    "comment" : "California kush roll it up into a fat blunt for medicinal purposes to elevate your consciousness.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc147351"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449ba"),
+    "comment" : "Guatemalan purple haze grown outdoors by ganja shaman.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147352"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449bb"),
+    "comment" : "Legalize spliffs for recreational Snoop Dogg edibles pusher cannabidiol cartoons.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147353"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449bc"),
+    "comment" : "Littering and butter stuff more cerebral high couch lock Abba Zabba you my only friend.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc147354"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449bd"),
+    "comment" : "Pass the duchie Bob Marley this shatter is hella potent.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147355"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449be"),
+    "comment" : "Rolling down the street smoking endo, laid back. Have you ever tried Lorem Ipsum on Weeeeeeeeeeed?",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147356"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449bf"),
+    "comment" : "Indica is like ‘in da couch’ like straight couch lock chasing waterfalls and milkers straight to your dome.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc147357"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c0"),
+    "comment" : "French inhale topical CBD lotion and binge watch Cheech and Chong.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147358"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c1"),
+    "comment" : "Extremely dope chronic eye drops in the basement with psychedellic nugs.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147359"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c2"),
+    "comment" : "Toke up on the Pineapple Express with that sticky icky shotgun sensamillia.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc14735a"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c3"),
+    "comment" : "Just give us the whizzaa!",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc14735b"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c4"),
+    "comment" : "Make a quick pipe out of an apple and release the carb Purple Haze all around.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc14735c"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c5"),
+    "comment" : "Rasta! Fully man, keif gummies are the indoor equivalent of body high super mellow.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc14734e"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c6"),
+    "comment" : "Dude you’re just being paranoid, don’t call the cops.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc14734f"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c7"),
+    "comment" : "OG grandaddy purps with notes of diesel.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc147350"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c8"),
+    "comment" : "Hydroponic nacho pop-tarts tetrahydrocannabinol hybrid schwag stems and seeds little orange hairs.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc147351"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449c9"),
+    "comment" : "The cannabis industry will gravity bong a cotton mouth pizza dipped in ranch.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147352"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449ca"),
+    "comment" : "Broccoli bong butterfly gateway drugs to elevate your good vibrations.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147353"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449cb"),
+    "comment" : "Taco Bell 4th meal with Doritos Locos tacos and a knife rip on the side.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc147354"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449cc"),
+    "comment" : "Optimizing dime bags of pre-rolled honey oil dabs.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc147355"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449cd"),
+    "comment" : "Hot box at 4:20 the fatty dank endo doobie in a cashed roachclip, Bogart.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147356"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449ce"),
+    "comment" : "Wake and bake indica hash at the dispensary in Oregon decriminalized.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147357"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449cf"),
+    "comment" : "Crystalized buds from trimming tasty weed pens THC sativa euphoric resinated dome piece.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc147358"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d0"),
+    "comment" : "California kush roll it up into a fat blunt for medicinal purposes to elevate your consciousness.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147359"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d1"),
+    "comment" : "Guatemalan purple haze grown outdoors by ganja shaman.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc14735a"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d2"),
+    "comment" : "Legalize spliffs for recreational Snoop Dogg edibles pusher cannabidiol cartoons.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc14735b"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d3"),
+    "comment" : "Littering and butter stuff more cerebral high couch lock Abba Zabba you my only friend.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc14735c"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d4"),
+    "comment" : "Pass the duchie Bob Marley this shatter is hella potent.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc14734e"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d5"),
+    "comment" : "Rolling down the street smoking endo, laid back. Have you ever tried Lorem Ipsum on Weeeeeeeeeeed?",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc14734f"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d6"),
+    "comment" : "Indica is like ‘in da couch’ like straight couch lock chasing waterfalls and milkers straight to your dome.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147350"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d7"),
+    "comment" : "French inhale topical CBD lotion and binge watch Cheech and Chong.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147351"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d8"),
+    "comment" : "Extremely dope chronic eye drops in the basement with psychedellic nugs.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc147352"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449d9"),
+    "comment" : "Toke up on the Pineapple Express with that sticky icky shotgun sensamillia.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147353"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449da"),
+    "comment" : "Just give us the whizzaa!",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147354"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449db"),
+    "comment" : "Make a quick pipe out of an apple and release the carb Purple Haze all around.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147355"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449dc"),
+    "comment" : "Rasta! Fully man, keif gummies are the indoor equivalent of body high super mellow.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc147356"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449dd"),
+    "comment" : "Dude you’re just being paranoid, don’t call the cops.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc147357"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449de"),
+    "comment" : "OG grandaddy purps with notes of diesel.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc147358"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449df"),
+    "comment" : "Hydroponic nacho pop-tarts tetrahydrocannabinol hybrid schwag stems and seeds little orange hairs.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b2",
+    "store" : "5d474e210953e00dbc147359"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449e0"),
+    "comment" : "The cannabis industry will gravity bong a cotton mouth pizza dipped in ranch.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b3",
+    "store" : "5d474e210953e00dbc14735a"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449e1"),
+    "comment" : "Broccoli bong butterfly gateway drugs to elevate your good vibrations.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b4",
+    "store" : "5d474e210953e00dbc14735b"
+}
+
+======================================
+
+{
+    "_id" : ObjectId("5d485d2ab39af235748449e2"),
+    "comment" : "Taco Bell 4th meal with Doritos Locos tacos and a knife rip on the side.",
+    "created" : ISODate("2019-08-05T16:45:29.635Z"),
+    "updated" : ISODate("2019-08-05T16:45:29.635Z"),
+    "user" : "5d47260d7ffa622eb84ae7b5",
+    "store" : "5d474e210953e00dbc14735c"
+}
+
+======================================
+
+

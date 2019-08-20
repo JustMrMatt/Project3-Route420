@@ -1,0 +1,56 @@
+
+
+<div id="wrapper" class="container" data-article-id={{article._id}}>
+
+    <div class="row"> 
+        <h4><a href="/">Home</a></h4>
+    </div> <!-- /row -->
+
+    <div class="row"> 
+        <h1>{{article.title}}</h1>
+    </div> <!-- /row -->
+
+    <div class="row"> 
+        <h5><a href="{{article.link}}" target="_blank">{{article.link}}</a></h5>
+    </div> <!-- /row -->
+
+    <!--
+    <div class="row"> 
+    <h3>Written By: </h3>
+    </div>  
+
+    <div class="row"> 
+    <h3>Date: </h3>
+    </div> 
+
+    <div class="row"> 
+    <div>Blurb</div>
+    </div> 
+
+    <div class="row"> 
+    <h3>Community Discussion</h3>
+    </div> -->
+
+    <div class="row"> 
+        <div id="formContainer">
+            <form id="notesForm" method="post">
+                <textarea id="user-added-note"></textarea>
+                <br>
+                <button id="new-note-submit" class="btn btn-primary">Add Note</button>
+            </form>
+        </div>
+    </div> <!-- /row -->
+
+    <div id="userNotes"> 
+        <h3>Community Discussion</h3>
+        {{#each article.notes}}
+        <div class="displayNote">
+            {{this.body}}
+            <div>
+                <button class="btn btn-secondary deleteNote" data-note-id={{this._id}}>Delete</button>
+            </div>
+        </div>
+        {{/each}}
+    </div> <!-- /row -->
+
+</div><!-- /container -->

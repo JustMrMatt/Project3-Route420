@@ -1,0 +1,23 @@
+
+
+
+<div id="wrapper">
+
+    <h1>r/News Scraper</h1>
+    <h2><i>Collect articles from Reddit's <a href="https://old.reddit.com/r/news/" target="_blank">r/news subreddit</a>!</i></h2>
+
+    <div><button id="getNews" class="btn btn-primary">Refresh Articles</button></div>
+
+    <div id="articles-section">
+
+    {{#each article}}
+    <div class="article-data" data-article-id="{{_id}}">
+    <div><strong>{{title}}</strong></div>
+    </div>
+    {{/each}}
+
+    </div>
+
+</div>
+
+
