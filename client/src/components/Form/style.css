@@ -6,3 +6,7 @@
 .form-control{
     border: 3px solid #4285f4;
 }
+
+#homeLogo {
+    max-width: 250px;
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NoMatch from "./pages/NoMatch";
-import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Search from "./pages/Search";
 //import Saved from "./pages/Saved";
@@ -16,7 +15,6 @@ function App() {
   return (
 
     <React.Fragment>
-      <Header />
     <Router>
       <div>
         <Nav /> <br />

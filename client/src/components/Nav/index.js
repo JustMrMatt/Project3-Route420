@@ -1,18 +1,32 @@
 import React from "react";
-// import UserContext from "../../utils/userContext";
+import "./style.css";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a className="navbar-brand" href="/locations">
-        Locations
-      </a>
-      <span>&nbsp;</span>
-      <span>&nbsp;</span>
-      <span>&nbsp;</span>
-      <a className="navbar-brand" href="/user">
-        Account
-      </a>
+    <nav className="navbar navbar-expand-lg navbar-light" id="dark">
+
+      <img src="../../assets/images/route420.png" alt="logo" />
+
+      <a className="navbar-brand" href="/" id="dark">Route 420</a>
+
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarNav">
+
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a className="nav-link" href="/">Home </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/locations"> Locations </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/user"> Account</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     )
 }

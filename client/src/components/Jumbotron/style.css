@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: #025F4F;
+    height:300;
+    clear:"both";
+    padding-top: 120;
+    text-align: "center";
+    color: white;
+}
+
+#title {
+    text-shadow:4px 4px 2px rgba(150,150,150,0.1);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-family: 'Cabin', sans-serif;
+}
+
