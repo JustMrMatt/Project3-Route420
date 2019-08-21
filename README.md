@@ -1,6 +1,6 @@
 # Route 420
 
-[Deployed App](heroku.com)
+[Deployed App](https://route420react.herokuapp.com/)
 
 Cataloging stores in North Carolina that sell CBD products.
 
@@ -10,7 +10,8 @@ Cataloging stores in North Carolina that sell CBD products.
  * CSS
  * JavaScript
  * Node JS
- * React 
+ * React, React Router
+ * Axios
  * Mongo DB, Mongoose
 
  ## Database
