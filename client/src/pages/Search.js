@@ -5,7 +5,7 @@ import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { Input, FormBtn } from "../components/Form";
-
+import "../components/Jumbotron/style.css";
 //import { ResultList, ResultItem } from "../components/Results";
 
 class Search extends Component {
@@ -230,12 +230,25 @@ class Search extends Component {
       <Container fluid>
         <Row>
         <Col size="md-2"></Col>
+
           <Col size="md-8">
             <br />
-            <Jumbotron>
-                {/* using image from public folder
-                <img src="headerImg.png" alt=""/> */}
-                <h1>Route 420</h1>
+            <Jumbotron id="jumbotron">
+
+              <Row>
+
+                <Col size="md-6">
+                  <h1 id="title">Never be without CBD ever again.</h1>
+                  <br />
+                  <h2>Find what you want and where it's sold.</h2>
+
+                </Col>
+
+                <Col size="5">
+                  <img src="../../assets/images/route420-icon.svg" id="homeLogo" />
+                </Col>
+
+              </Row>
             </Jumbotron>
             {/*<div>
               <NewsFeed />

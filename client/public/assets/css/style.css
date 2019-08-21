@@ -1,0 +1,11 @@
+#grad1 {
+  height: 100%;
+  background-color: #025F4F; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #025F4F, #0cc7a7); /* Standard syntax (must be last) */
+};
+
+#title {
+    margin: 24px;
+    font: white, 35.2px, 'Cabin', sans-serif
+
+}
